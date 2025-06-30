@@ -4,8 +4,8 @@
   "type": "module",
   "main": "index.js",
   "scripts": {
-    "dev": "node ./src/index.js --env=development",
-    "prod": "node ./src/index.js --env=production",
+    "dev": "node --watch ./src/index.js --env=development",
+    "prod": "node --watch ./src/index.js --env=production",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
